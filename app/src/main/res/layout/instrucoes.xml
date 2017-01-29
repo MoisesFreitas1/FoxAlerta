@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="INSTRUÇÕES"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/foxbitlogo"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Este aplicativo destina-se a fazer investimentos na moeda digital Bitcoin de forma mais eficiente em negociações no site FoxBit.\n 1- Crie e ative uma conta no site Foxbit;\n 2- Efetue a compra de bitcoins;\n 3- Volte ao aplicativo e clique em Vender no menu lateral e informe o preço que você comprou e quanto você deseja obter de ganho;\n 4- Clique em Scan e aguarde até que o preço do bitcoin esteja acima do preço que você comprou para obter lucro na venda. Quando isso ocorrer o aplicativo emitirá um sinal sonoro;\n 5- Vá até o site do Foxbit através do menu lateral e efetue a venda de seus bitcoins;\n 6- Volte ao aplicativo e em Comprar informe o valor que vendeu, o ganho pretendido e clique em SCAN. Quando o valor da venda for maior que o valor de compra o aplicativo emitirá um sinal sonoro;\n 7- Vá até o site e compre mais bitcoins;\n 8- Repita esse processo inúmeras vezes e veja seu dinheiro crescer. "
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

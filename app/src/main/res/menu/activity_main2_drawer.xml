@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_instrucoes" android:icon="@drawable/instrucoes"
+            android:title="Instruções" />
+        <item android:id="@+id/nav_mb" android:icon="@drawable/bitcoin"
+            android:title="Foxbit" />
+        <item android:title="Bitcoin">
+            <menu>
+                <item android:id="@+id/nav_comprar" android:icon="@drawable/comprar"
+                    android:title="Comprar Bitcoins" />
+                <item android:id="@+id/nav_vender" android:icon="@drawable/vender"
+                    android:title="Vender Bitcoins" />
+            </menu>
+        </item>
+    </group>
+</menu>
+
